@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Aspirin",
+  "version": "1.0",
+  "description": "You don't have to see other's followings, likes and kayınços in twitter. Just get an aspirin.",
+  "icons": {
+      "64": "icons/icon-64.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://twitter.com/*"],
+      "js": ["aspirin.js"]
+    }
+  ]
+}
