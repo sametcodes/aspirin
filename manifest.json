@@ -9,7 +9,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://twitter.com/*"],
+      "matches": ["*://twitter.com/"],
       "js": ["aspirin.js"]
     }
   ]

@@ -1,4 +1,3 @@
-
 function delete_tweet(tweets){
     if(tweets.length > 0){
         for(var i = 0; i <= tweets.length; i++){
