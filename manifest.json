@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "author": "selmansamet",
   "name": "Aspirin",
-  "version": "1.0",
+  "version": "1.1",
   "description": "You don't have to see other's followings or likes in twitter flow. Just get an aspirin.",
   "icons": {
       "64": "icons/icon-64.png"
