@@ -7,7 +7,7 @@
                     let h = context.querySelector('.tweet-context>span')
                     let act = h.className.split("--").splice(-1)[0]
                     if(act !== "retweeted"){
-                        tweets[i].remove();
+                      tweets[i].remove();
                     }
                 }
             }
@@ -27,4 +27,4 @@
     observer.observe(target, config) 
 
     delete_tweet([...document.querySelectorAll('.tweet')])
-})
+})()
